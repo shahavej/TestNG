@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test thread-count = "2" name="Test1">
+		<classes>
+			<class name="Testpack.Day2" />
+		</classes>
+	</test>
+	<test thread-count = "2" name="Test2">
+		<classes>
+			<class name="Testpack.Night1" />
+			<class name="Testpack.Night2" />
+		</classes>
+	</test>
+	<test thread-count = "2" name="Test3">
+		<classes>
+			<class name="Testpack.Day1" />
+		</classes>
+	</test>
+</suite> 

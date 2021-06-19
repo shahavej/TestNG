@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke" />
+		</run>
+	</groups>
+	<test name="Test">
+		<classes>
+			<class name="Testpack.Day1">
+				<methods>
+					<exclude name="t1" />
+				</methods>
+			</class>
+			<class name="Testpack.Day2" />
+			<class name="Testpack.Night1" />
+			<class name="Testpack.Night2" />
+		</classes>
+	</test>
+</suite> 
